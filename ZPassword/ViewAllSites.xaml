@@ -3,6 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Current Passwords" Height="440" Width="659" Loaded="Window_Loaded">
     <Grid Height="397" Width="621">
-        <DataGrid  AutoGenerateColumns="False" Height="397" Width="621" HorizontalAlignment="Left" Name="dataGrid1" VerticalAlignment="Top" />
+        <WrapPanel Height="373" HorizontalAlignment="Left" Margin="12,12,0,0" Name="wpCurrentSites" VerticalAlignment="Top" Width="597">
+            <Button Height="64" Width="154" Margin="5,5,20,5">Button 1</Button>
+            <Button Height="64" Width="177">Button 2</Button>
+        </WrapPanel>
     </Grid>
 </Window>

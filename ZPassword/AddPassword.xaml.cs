@@ -24,14 +24,18 @@ namespace Z10PasswordVault
             InitializeComponent();
         }
 
+        public Action<string> ShowPasswordViewer;
         private void btnShow_Click(object sender, RoutedEventArgs e)
         {
-
+            if(ShowPasswordViewer!=null)
+            {
+                ShowPasswordViewer(txtSiteName.Text);
+            }
         }
 
         private void btnSaveSite_Click(object sender, RoutedEventArgs e)
         {
-
+            this.DialogResult = true;
         }
     }
 }
