@@ -1,0 +1,9 @@
+﻿<Window x:Class="Z10PasswordVault.DecryptionKeyDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DecryptionKeyDialog" Height="146" Width="439">
+    <Grid>
+        <PasswordBox PasswordChar="*"  Height="37" HorizontalAlignment="Left" Margin="61,46,0,0" Name="txtPassword" VerticalAlignment="Top" Width="300" KeyDown="textBox1_KeyDown" />
+        <Label Content="Master Password" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" />
+    </Grid>
+</Window>
